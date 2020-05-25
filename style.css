@@ -21,8 +21,9 @@ body {
 header {
   background-color: #e1bfa3;
   display: grid;
-  grid-template-columns: repeat(3, 15%) 30% 20%;
-  justify-content: space-between;
+  grid-template-columns: repeat(3, 15%) 35% 15%;
+  grid-template-rows: 2fr 3fr;
+  justify-content: center;
   grid-template-areas:
   'a b c d e'
   'f g h i j';
@@ -34,17 +35,16 @@ button {
   font-size: 18px;
   font-family: sans-serif;
   background-color: #e1bfa3;
-  text-align: center;
+  text-align: right;
 }
 
 .logo {
   grid-area: j;
   max-width: 90px;
   max-height: 100%;
-  padding-left:40%;
-  padding-right: 40%;
   padding-top: 2%;
   padding-bottom: 2%;
+  justify-content: start;
 }
 
 .first-button {
@@ -61,8 +61,9 @@ button {
 
 .fourth-button {
   grid-area: e;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
+  align-content: right;
 }
 
 .first-button span.icon {
@@ -145,4 +146,37 @@ h1 {
   margin-left: 10%;
   width: 70%;
   height: 75%
+}
+@media screen and (max-width: 700px) {
+  header {
+    max-width: 100%;
+    grid-template-columns: none;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas:
+      'j'
+      'f'
+      'g'
+      'h'
+      'e';
+  }
+  button {
+    margin: 2%;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .card-image {
+    max-width: 300px;
+    height: 100%;
+    align-self: center;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-right: auto;
+  }
 }
