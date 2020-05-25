@@ -97,3 +97,52 @@ h1 {
   font-weight: lighter;
   height: 575px;
 }
+
+.card-image {
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-header {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  grid-column: 1 / span 4;
+  grid-row: 3 / span 1;
+}
+
+.style {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.card-profile-link {
+  grid-column: 1 / span 4;
+  grid-row: 4 / span 1;
+  overflow-wrap: break-word;
+  padding: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #E8E8E8;
+}
+
+.paragraph-content {
+  grid-column: 1 / span 4;
+  grid-row: 5 / span 1;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.vote-icon {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 70%;
+  height: 75%
+}
