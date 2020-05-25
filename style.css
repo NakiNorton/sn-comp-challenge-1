@@ -8,9 +8,7 @@ img {
   display: block;
 }
 
-* {
-  outline: 1px dotted black;
-}
+
 
 body {
   display: grid;
@@ -21,21 +19,25 @@ body {
 header {
   background-color: #e1bfa3;
   display: grid;
-  grid-template-columns: repeat(3, 15%) 35% 15%;
+  grid-template-columns: repeat(3, 15%) 30% 15%;
   grid-template-rows: 2fr 3fr;
-  justify-content: center;
+  justify-content: space-between;
   grid-template-areas:
   'a b c d e'
   'f g h i j';
 }
 
 button {
-  margin: 0;
-  padding: 0;
-  font-size: 18px;
+  margin-top: 0;
+  border: none;
+  padding-right: 40%;
+  font-size: 20px;
   font-family: sans-serif;
+  color: black;
   background-color: #e1bfa3;
-  text-align: right;
+  align-content: center;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .logo {
@@ -45,6 +47,10 @@ button {
   padding-top: 2%;
   padding-bottom: 2%;
   justify-content: start;
+  color: #60676B;
+  font-size: 24px;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .first-button {
@@ -62,48 +68,51 @@ button {
 .fourth-button {
   grid-area: e;
   font-size: 14px;
-  font-weight: bold;
-  align-content: right;
+  color: black;
 }
 
 .first-button span.icon {
     background: url(https://image.flaticon.com/icons/svg/273/273806.svg) no-repeat;
     float: left;
-    width: 40px;
-    height: 40px;
-    margin-left: 5%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10%;
+    margin-right: 5%;
     margin-bottom: 5%;
 }
 
 .second-button span.icon {
     background: url(https://image.flaticon.com/icons/svg/149/149181.svg) no-repeat;
     float: left;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 5%;
 }
 
 .third-button span.icon {
     background: url(https://image.flaticon.com/icons/svg/900/900930.svg) no-repeat;
     float: left;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 5%;
 }
 
 .fourth-button span.icon {
     background: url(https://image.flaticon.com/icons/svg/126/126486.svg) no-repeat;
     float: left;
-    width: 40px;
-    height: 40px;
-    margin-left: 5%;
+    width: 25px;
+    height: 25px;
+    margin-left: 25%;
     margin-bottom: 5%;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 36px;
+  color: #60676B;
   font-family: sans-serif;
   font-weight: lighter;
   margin-left: 2%;
@@ -183,14 +192,14 @@ footer {
   header {
     max-width: 100%;
     grid-template-columns: none;
+    grid-template-rows: repeat(4, 1fr);
     justify-content: center;
-    align-content: center;
     grid-template-areas:
-      'j'
       'f'
       'g'
       'h'
-      'e';
+      'e'
+      'j';
   }
   button {
     margin: 2%;
@@ -199,8 +208,18 @@ footer {
     padding-left: 20%;
     padding-right: 20%;
     text-align: center;
+    align-items: center;
+    border: 1px dotted white;
+  }
+  .logo {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 50px;
+    font-size: 14px;
   }
 }
+
 
 @media screen and (max-width: 625px) {
   .card-image {
