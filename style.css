@@ -75,6 +75,33 @@ button {
     margin-bottom: 5%;
 }
 
+.second-button span.icon {
+    background: url(https://image.flaticon.com/icons/svg/149/149181.svg) no-repeat;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.third-button span.icon {
+    background: url(https://image.flaticon.com/icons/svg/900/900930.svg) no-repeat;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.fourth-button span.icon {
+    background: url(https://image.flaticon.com/icons/svg/126/126486.svg) no-repeat;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
 h1 {
   font-size: 40px;
   font-family: sans-serif;
@@ -147,6 +174,11 @@ h1 {
   width: 70%;
   height: 75%
 }
+
+footer {
+  padding: 10px;
+}
+
 @media screen and (max-width: 700px) {
   header {
     max-width: 100%;
