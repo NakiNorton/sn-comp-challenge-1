@@ -3,6 +3,11 @@ html, body {
   height: 100%
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 * {
   outline: 1px dotted black;
 }
@@ -61,4 +66,11 @@ button {
     height: 40px;
     margin-left: 5%;
     margin-bottom: 5%;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-left: 2%;
 }
