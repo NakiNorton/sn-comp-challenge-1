@@ -14,13 +14,13 @@ For this project I had to recreate a webpage based off a provided static comp. W
 
 ## Provided Static Comp
 
-![alt text](/Users/stephanienorton/turing/mod1/projects/static-comp/sn-comp-challenge-1/images/Provided Static Comp.png)
+![static comp](https://i.imgur.com/9WSGtvD.png)
 
 
 ## Screenshots of my static comp
 
-View on laptop screen
-![alt text](/Users/stephanienorton/turing/mod1/projects/static-comp/sn-comp-challenge-1/images/My webpage main view.png)
+*View on laptop screen*
+![main view](https://i.imgur.com/BdN3IOh.png)
 
-View on mobile screen
-![alt text](/Users/stephanienorton/turing/mod1/projects/static-comp/sn-comp-challenge-1/images/Mobile view.png)
+*View on mobile screen*
+![mobile view](https://i.imgur.com/RlUDyuZ.png)
