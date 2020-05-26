@@ -19,8 +19,8 @@ For this project I had to recreate a webpage based off a provided static comp. W
 
 ## Screenshots of my static comp
 
-*View on laptop screen*
+*View on laptop screen*  
 ![main view](https://i.imgur.com/BdN3IOh.png)
 
-*View on mobile screen*
+*View on mobile screen*    
 ![mobile view](https://i.imgur.com/RlUDyuZ.png)
